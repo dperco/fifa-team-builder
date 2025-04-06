@@ -1,0 +1,22 @@
+# Entorno virtual
+venv/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos de desarrollo
+.env
+.venv
+
+# Archivos de IDE
+.idea/
+.vscode/
+
+# Archivos de datos grandes
+data/
+models/
+
+# Logs
+*.log
