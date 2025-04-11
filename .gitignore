@@ -15,8 +15,6 @@ __pycache__/
 .vscode/
 
 # Archivos de datos grandes
-data/
-models/
 
 # Logs
 *.log
