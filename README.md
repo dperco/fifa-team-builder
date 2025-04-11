@@ -40,33 +40,26 @@ Git
 
 Pasos de Instalación
 
+crear una carpeta  mkdir  /mi_carpeta
+
 ## Clonar el repositorio
 
 git clone [https://github.com/dperco/fifa-team-builder.git]
 
 cd fifa-team-builder
 
-# Crear el archvio de embeddings
-
- cd /app
- python initialize.py
-
 ## Crear entorno virtual (recomendado)
 
-python -m venv venv
+python -m venv "D:\mi_carpeta\fifa-team-builder\venv"
+
 source venv/bin/activate  # Linux/Mac
-.\venv\Scripts\activate   # Windows
+
+.\venv\Scripts\activcd ate   # Windows
 
 ## Instalar dependencias
 
-pip install -r requirements.txt
-
+pip install -e .  (Instala el proyecto en modo editable )
 ***pueden existir problemas de compatibilidad de versiones de librerias , que hay   actualizar
-
-## Descargar datos (ejemplo)
-
-wget <https://example.com/players_21.csv> -O 'data/players_21.csv'
-****   se usa el archivo jugadores_fifa21 de  Kagle ****
 
 🏃 Ejecución
 
