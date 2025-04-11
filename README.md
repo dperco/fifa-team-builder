@@ -42,7 +42,7 @@ Pasos de Instalación
 
 ## Clonar el repositorio
 
-git clone [https://github.com/tu-usuario/fifa-team-builder.git](https://github.com/tu-usuario/fifa-team-builder.git)
+git clone [https://github.com/dperco/fifa-team-builder.git]
 
 cd fifa-team-builder
 

@@ -35,7 +35,7 @@ class TeamResponse(BaseModel):
     team_analysis: str
 class TeamRequest(BaseModel):
     team_description: str = Field(..., min_length=10, max_length=500)
-    team_formation: str = Field(..., regex=r'^\d-\d(-\d)*$')
+    team_formation: str = Field(..., pattern=r'^\d-\d(-\d)*$')
     budget: float = Field(..., gt=0)
     criteria: Dict[str, PositionCriteria]
 
